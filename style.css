@@ -1,0 +1,319 @@
+ /* Developer : Rupesh Kumar Mund  */
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+.container {
+    overflow: hidden;
+}
+.bg-section-one .navbar {
+    margin-top: 0;
+    /* height: 80px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-grow: 2;
+    /* background-color: rgba(0, 0, 0, 0.88); */
+}
+.navbar h1 {
+    color: orange;
+    line-height: 85px;
+    font-size: 45px;
+    margin-left: 4px;
+    margin-bottom: 120px;
+}
+
+.navbar .listItem {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 0px;
+    margin-bottom: 120px;
+}
+.listItem li a {
+    font-size: 25px;
+    text-decoration: none;
+    color: orange;
+    margin-inline: 40px;
+}
+
+.bg-section-one {
+    padding-top: 0px;
+    padding-left: 80px;
+    background-image: url("/bg-imgC1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 69%;
+    color:antiquewhite;
+    animation: changeImg 15s infinite ease-in-out 0s forwards;
+}
+@keyframes changeImg {
+    0% {
+        background-image: url("/bg-imgC1.jpg");
+    }
+    35% {
+        background-image: url("/bg-imgC2.jpg");
+    }
+    70% {
+        background-image: url("/bg-imgC3.jpg");
+    }
+    100% {
+        background-image: url("/bg-imgC4.jpg");
+    }
+}
+.bg-section-one h2 {
+    font-size: 54px;
+}
+.bg-section-one .s1 {
+    color: orange;
+    font-size: 56px;
+    animation-name: color;
+    font-weight: bolder;
+    animation: color 12s infinite 0s ease-in forwards;
+    
+}
+.bg-section-one .para1 {
+    font-size: 24px;
+    margin: 30px 0 18px 0;
+}
+.bg-section-one .points {
+    list-style-type: none;
+    width: 330px;
+    height: 200px;
+    background-color: rgb(240, 219, 181);
+    margin: 25px 0 16px 0;
+    font-size: 22px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    color: #095a94;
+    gap: 6px;
+    border: solid rgb(159, 201, 232) 1px;
+    border-radius: 6px  30%;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 11px 0;
+}
+.bg-section-one .points .motivation {
+    color: orange;
+} 
+.bg-section-one .points1 {
+    list-style-type: none;
+    margin: 10px 0;
+    font-size: 26px;
+    font-weight: 800;
+    display: flex;
+    flex-direction: column;
+    color: rgb(22, 243, 188);
+    gap: 11px;
+}
+.bg-section-one .s11{
+    font-size: 38px;
+    color: gold;
+    margin-top: 40px;
+}
+
+.bg-section-one button {
+    margin: 20px 0;
+    width: 140px;
+    height: 40px;
+    color:antiquewhite;
+    border: solid 1px black;
+    border-radius: 10px;
+    box-shadow:  inset 4px 4px 4px rgb(84, 75, 50);
+    font-size: 20px;
+    background-color: rgb(244, 134, 16);
+    font-weight: 800;
+}
+.bg-section-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.bg-section-two .part1 {
+    margin: 0 30px;
+    border: solid orange 2px;
+    border-radius: 26px;
+    box-shadow: 6px 6px 8px rgb(107, 107, 107);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 18px 0;
+    align-items: center;
+    background-color: rgb(255, 250, 242);
+}
+.bg-section-two .Exercise-h2 {
+    text-align: center;
+    font-size: 50px;
+    margin: 24px 0 32px 0;
+}
+
+.bg-section-two .part1 .left-img  {
+    float: left;
+    margin-left: 40px;
+    margin-right: 30px;
+    border: none;
+    border-radius: 20px;
+    border: none;
+    height: 250px;
+    width: 380px;
+    border: 10px 10px 0 0;
+}
+
+.bg-section-two h3 {
+    margin-left: 30px;
+    font-size: 32px;
+    font-weight: 860;
+    margin-bottom: 14px;
+}
+.bg-section-two .para2 {
+    margin-right: 40px;
+    margin-left: 22px;
+    font-size: 27px;
+}
+.bg-section-three .content {
+    margin-top: 10px;
+    height: 570px;
+    /* background-color: rgba(0, 0, 0, 0.88); */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-shrink: 2;
+}
+
+.bg-section-three .card {
+    height: 410px;
+    width: 290px;
+    margin: 80px 0;
+    background-color: rgb(51, 49, 49);
+    border: none;
+    border-radius: 20px 20px 0 0;
+    box-shadow: 6px 6px 8px rgb(62, 62, 62);
+
+}
+.bg-section-three .Subscription {
+    text-align: center;
+    margin: 80px 0 30px 0;
+    font-size: 46px;
+    font-weight: bolder;
+}
+.bg-section-three .card img {
+    border: none;
+    border-radius: 20px 20px 0 0;
+    width: 290px;
+    height: 170px;
+    margin-bottom: 14px;
+}
+.bg-section-three .card-heading {
+    margin-bottom: 12px;
+    text-align: center;
+    font-size: 25px;
+    color: rgb(229, 153, 13);
+}
+.bg-section-three .para-card {
+    margin: 0 12px;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    color: orangered;
+}
+.bg-section-three .btn {
+    font-size: 15.5px;
+    margin-top: 14px;
+    margin-left: 70px;
+    width: 144px;
+    height: 35px;
+    border: none;
+    font-weight: 700;
+    border-radius: 13px;
+    background-color: rgb(235, 146, 38);
+    box-shadow: 3px 3px 5px rgb(240, 216, 109);
+}
+.bg-section-three .btn-1 {
+    font-size: 15.5px;
+    margin-top: 14px;
+    margin-left: 70px;
+    font-weight: 700;
+    width: 144px;
+    height: 35px;
+    border: none;
+    border-radius: 13px;
+    background-color: rgb(51, 240, 124);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes color {
+    0% {
+        background-color: rgb(64, 32, 87);
+        transform: scale(1);
+    }
+
+    30% {
+        background-color: rgb(241, 189, 18);
+        transform: scale(1.02);
+    }
+
+    60% {
+        background-color: rgb(35, 216, 108);
+        transform: scale(1.05);
+    }
+
+    100% {
+        background-color: rgb(233, 120, 27);
+        transform: scale(1.03);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes color {
+    0% {
+        color: orange;
+    }
+    25% {
+        color: rgb(18, 132, 231);
+    }
+    50% {
+        color: rgb(224, 42, 42);
+    }
+    80% {
+        color: magenta;
+    }
+    100% {
+        color: gold;
+    }
+}
+
