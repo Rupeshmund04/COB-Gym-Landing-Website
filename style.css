@@ -46,7 +46,7 @@ html {
 .bg-section-one {
     padding-top: 0px;
     padding-left: 80px;
-    background-image: url("/bg-imgC1.jpg");
+    background-image: url("/COB-Gym-Landing-Website/bg-imgC1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 69%;
@@ -55,16 +55,16 @@ html {
 }
 @keyframes changeImg {
     0% {
-        background-image: url("/bg-imgC1.jpg");
+        background-image: url("/COB-Gym-Landing-Website/bg-imgC1.jpg");
     }
     35% {
-        background-image: url("/bg-imgC2.jpg");
+        background-image: url("/COB-Gym-Landing-Website/bg-imgC2.jpg");
     }
     70% {
-        background-image: url("/bg-imgC3.jpg");
+        background-image: url("/COB-Gym-Landing-Website/bg-imgC3.jpg");
     }
     100% {
-        background-image: url("/bg-imgC4.jpg");
+        background-image: url("/COB-Gym-Landing-Website/bg-imgC4.jpg");
     }
 }
 .bg-section-one h2 {
